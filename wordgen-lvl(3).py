@@ -7,7 +7,7 @@ SYMBOLS = list("!@#$%^&*()_+-=[]{}|:;\"'<>,.?/~")
 NUMBERS = [str(i) for i in range(0, 10001)]  # 0 to 10000
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="🐉 Kali Wordlist Generator – ULTRA Mutator")
+    parser = argparse.ArgumentParser(description="RedPython Wordlist Generator – ULTRA Mutator")
 
     # Target fields
     parser.add_argument("-u", help="Username")
